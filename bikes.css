@@ -1,0 +1,196 @@
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: black solid 1px;
+
+}
+
+.topbar {
+    background-color: white;
+    min-height: 80px;
+    display: flex;
+    padding: 0px;
+    justify-content: flex-end;
+}
+
+.smalltop {
+    width: 26px;
+    height: 26px;
+}
+
+.testride {
+    width: 26px;
+    height: 26px;
+}
+
+.finddealer {
+    width: 26px;
+    height: 26px;
+}
+
+.menubar {
+    display: flex;
+    padding: 0px;
+    background-color: black;
+    justify-content: flex-end;
+    min-height: 90px;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 30px
+
+
+}
+
+.models {
+    font-size: 11;
+    color: white;
+    background-color: black;
+    min-width: 60px;
+}
+
+.offers {
+    font-size: 11;
+    color: white;
+    background-color: black;
+    min-width: 50px;
+}
+
+.accessories {
+    font-size: 11;
+    color: white;
+    background-color: black;
+    min-width: 90px;
+}
+
+.used {
+    font-size: 11;
+    color: white;
+    background-color: black;
+    min-width: 50px;
+}
+
+.owners {
+    font-size: 11;
+    color: white;
+    background-color: black;
+    min-width: 60px;
+}
+
+.justride {
+    font-size: 11;
+    color: white;
+    background-color: black;
+    min-width: 70px;
+}
+
+.engineroom {
+    font-size: 11;
+    color: white;
+    background-color: black;
+    min-width: 100px;
+}
+
+
+.importantinfo {
+    background-color: rgb(221, 221, 221);
+    min-height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    
+    font-size: 1.3em;
+    color: #f2931d;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+
+.box1 {
+    border:green solid 2px;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    -ms-flex-align: center;
+}
+
+.box2 img {
+    
+}
+
+.range {
+    border: red 1px;
+}
+
+.multi {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.super {
+    max-width: 33%;
+    object-fit: cover;
+}
+
+.touring {
+    max-width: 33%;
+    object-fit: fill;
+}
+
+.adventure {
+    max-width: 33%;
+}
+
+.street {
+    max-width: 33%;
+}
+
+.custom {
+    max-width: 33%;
+}
+
+.onetwofive {
+    max-width: 33%;
+}
+
+.scooter {
+    max-width: 33%;
+}
+
+.offroad {
+    max-width: 33%;
+}
+
+.montesa {
+    max-width: 33%;
+}
+
+.knowledge {
+    background-color: black;
+}
+
+.engine {
+
+}
+
+.bottomlogo {
+    min-height: 50px;
+}
+
+.bottombar {
+    background-color: rgb(228, 228, 228);
+    height: 90px;
+}
+
+@media (min-width: 921px) {
+}
